@@ -19,4 +19,20 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
-
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+}
+article {
+	flex-grow: 2;
+}
+aside {
+	flex-grow: 1;
+}
+nav {
+	
+}

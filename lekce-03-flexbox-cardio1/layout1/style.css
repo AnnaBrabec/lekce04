@@ -14,9 +14,23 @@ aside {
 nav {
 	background: lightsteelblue;
 }
-
 /* -------------------------------------------- */
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
-
+.main {
+	display: flex;
+	height: 140px;
+}
+header, footer {
+	height: 70px;
+}
+article {
+	flex-grow: 3;
+}
+aside {
+	flex-grow: 2;
+}
+nav {
+	flex-grow: 2;
+}
 
